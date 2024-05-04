@@ -3,7 +3,13 @@ pipeline {
     stages {
         stage (sourceCode) {
             steps {
-                echo 'obteniendo sourceCode'
+                echo 'checkout sourceCode'
+            }
+            
+        }
+        stage (build) {
+            steps {
+                echo 'build project'
             }
             
         }
