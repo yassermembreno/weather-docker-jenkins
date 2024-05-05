@@ -21,3 +21,4 @@ pipeline {
             echo 'test project'            
         }
     }
+}
