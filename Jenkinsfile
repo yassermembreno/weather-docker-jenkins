@@ -18,7 +18,9 @@ pipeline {
             }            
         }
         stage (test) {
-            echo 'test project'            
+            steps{
+                echo 'test project'
+            }                 
         }
     }
 }
