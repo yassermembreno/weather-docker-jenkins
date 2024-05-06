@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        docker { image 'alpine-jdk17' }
-    } 
+    agent agent1
     options{
         skipStagesAfterUnstable()
     }
